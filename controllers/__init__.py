@@ -1,0 +1,7 @@
+from controllers.treatments_controller import treatments
+from controllers.customer_controller import customers
+from controllers.therapists_controller import therapists
+from controllers.booking_controller import bookings
+from controllers.schedule_controller import schedules
+
+registerable_controllers = [treatments,customers,therapists,bookings,schedules]
